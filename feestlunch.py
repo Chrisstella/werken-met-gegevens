@@ -9,6 +9,8 @@ prijs_c = 0.39
 prijs_s = 2.78
 korting_k = 0.50
 
-print(aantal_c * prijs_c + (aantal_s * prijs_s) - (aantal_k * korting_k))
+kosten = aantal_c * prijs_c + (aantal_s * prijs_s) - (aantal_k * korting_k)
 
+kostenbericht = 'De feestlunch kost je bij de bakker ' + str(kosten) + ' euro voor de 17 croissantjes en de 2 stokbroden als de 3 kortingsbonnen nog geldig zijn!'
 
+print(kostenbericht)
