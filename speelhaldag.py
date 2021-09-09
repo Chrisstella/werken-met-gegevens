@@ -8,7 +8,7 @@ prijs_gs = 0.37
 tijd_op_gs = 45
 tijd_betaal = 5
 
-kosten = aantal_p * prijs_t + (prijs_gs * (tijd_op_gs / tijd_betaal))
+kosten = aantal_p * prijs_t + ((prijs_gs * (tijd_op_gs / tijd_betaal)) * aantal_p)
 
 kostenbericht = 'Dit geweldige dagje-uit met 4 mensen in de Speelhal met 45 minuten VR kost je maar ' + str(kosten) + ' euro'
 
